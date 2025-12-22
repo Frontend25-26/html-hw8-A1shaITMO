@@ -338,7 +338,7 @@ section {
 
 .mobile-only { display: none; }
 
-@media (max-width: 1300px) { /* TODO изменить */
+@media (max-width: 400px) {
 
     .mobile-only { display: unset; }
     .desktop-only { display: none; }
