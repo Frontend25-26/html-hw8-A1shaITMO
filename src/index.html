@@ -3,19 +3,245 @@
     <meta charset="UTF-8">
     <title>HW8</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header">
+        <img class="Logo" src="img/logo.svg" alt="logo">
+        <div class="Button-group">
+            <button class="desktop-only">About me</button>
+            <button class="desktop-only">Education</button>
+            <button class="desktop-only">Work Experience</button>
+            <button class="desktop-only">Skills</button>
+            <button>Contacts</button>
+        </div>
+    </header>
+    <section id="about">
+        <h1>
+            Hello!<br>
+            My name is <br class="mobile-only">Alex Smith<br>
+            I'm creative front-end developer
+        </h1>
+        <img class="Image" width="500px"/>
+    </section>
+    <section id="education">
+        <h1>Education</h1>
+        <div class="container">
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Kingston university</h2>
+                    <small>Master's degree - Software Engineering</small>
+                </div>
+                <h3>2019 - 2021</h3>
+            </div>
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Kingston university</h2>
+                    <small>Bachelor's degree - Computer Engineering</small>
+                </div>
+                <h3>2015 - 2019</h3>
+            </div>
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Westminster School</h2>
+                    <small>Diploma's degree - Mathematics</small>
+                </div>
+                <h3>2013 - 2015</h3>
+            </div>
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Kingston university</h2>
+                    <small>Master's degree - Software Engineering</small>
+                </div>
+                <h3>2019 - 2021</h3>
+            </div>
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Kingston university</h2>
+                    <small>Bachelor's degree - Computer Engineering</small>
+                </div>
+                <h3>2015 - 2019</h3>
+            </div>
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Westminster School</h2>
+                    <small>Diploma's degree - Mathematics</small>
+                </div>
+                <h3>2013 - 2015</h3>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <h1>Work <br class="mobile-only">Experience</h1>
+        <div class="Button-group">
+            <button>Apple</button>
+            <button>Microsoft</button>
+            <button>Facebook</button>
+        </div>
+        <div class="work-info">
+            <img class="Image" width="500px">
+            <div class="info-block">
+                <div class="text-block">
+                    <h2>Front-end Developer Apple.Inc</h2>
+                    <small>California, United States</small>
+                </div>
+                <h3>Nov 2020 - Present · Full-time</h3>
+            </div>
+
+            <div class="desktop-only">
+                <p>В начале XX века немецкие психологи провели исследования восприятия человеком окружающего мира. Они
+                    выявили естественное стремление человека найти порядок в беспорядке.</p>
+                <p>Их эксперименты показали, что когда мозг обрабатывает полученные образы, он воспринимает разрозненные
+                    элементы как единое целое. Подсознательно мы пытаемся группировать похожие элементы, распознавать
+                    закономерности и таким образом упрощать сложные образы.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="info-block">
+                <div class="info">
+                    <h3>React</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-1"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>Angular</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-2"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>HTML + CSS</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-3"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>Javascript</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-4"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>Python</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-5"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>Soft skill</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-6"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>Motion graphics</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-7"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>UX</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-8"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>UI</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-9"></div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info">
+                    <h3>3D</h3>
+                    <img class="mobile-only" src="img/Close.svg" alt="close">
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-line" id="line-10"></div>
+                </div>
+            </div>
+        </div>
+        <div class="add-new-skill">
+            <h2>Add new skill</h2>
+            <div class="form">
+                <div class="field">
+                    <label for="name">Skill name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="field">
+                    <label for="proficiency">Skill proficiency percentage, %</label>
+                    <input type="text" id="proficiency">
+                </div>
+                <button>Add</button>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h1>Contacts</h1>
+        <div class="container">
+            <div class="card">
+                <img src="./img/pin.svg" alt="pointer-logo">
+                <div class="info-block">
+                    <h2>Address</h2>
+                    <small>16 Lva Tolstogo str., Moscow</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/call.svg" alt="call-logo">
+                <div class="info-block">
+                    <h2>Phone</h2>
+                    <small>+7 (000) 000 00 00</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/mail.svg" alt="message-logo">
+                <div class="info-block">
+                    <h2>E-Mail</h2>
+                    <small>myemail@yandex.ru</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="Logo-groups">
+            <img class="Logo" src="img/instagram.svg" alt="instagram-logo">
+            <img class="Logo" src="img/github.svg" alt="github-logo">
+            <img class="Logo" src="img/twitter.svg" alt="twitter-logo">
+            <img class="Logo" src="img/linkedin.svg" alt="linkedin-logo">
+        </div>
+        <div class="copyright">© 2023</div>
+    </footer>
 </div>
-
-<img class="Image" width="500px"/>
-
 </body>
 </html>
